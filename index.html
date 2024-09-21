@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+     <section class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+</section>
+
+    <!-- Hero Section -->
+    <section class="hero" >
+        <div class="hero-text">
+        <h1>Hi, I'm <span>Ria Chaudhari</span></h1>
+        <p>Aspiring Data Analyst</p>
+        <div class="hero-buttons">
+        <a href="#contact" class="btn btn-primary">Hire Me</a>
+        <a href="Ria Chaudhari Resume 1.pdf" download="Ria_Chaudhari_Resume"><button class="btn btn-primary">Resume</button></a>
+        </div>
+        </div>
+        <div class="hero-image">
+            <img src="data analyst woman icon.jpeg" alt="data anlalyst woman icon">
+          </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About <span>Me</span></h2>
+            <p>I am a third year undergraduate student pursuing Bachelors of Information Technology at Vivekanand Institute of Technology.I'm also an aspiring data analyst with experience in data cleaning and data visualization. I specialize in understanding and analyzing data and help businesses make further decisions to help them grow.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="text-center">My <span>Projects</span></h2>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="card project-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Credit Card Financial Dashboard</h5>
+                            <p class="card-text">This project offers a overall view of our credit card business, enabling data -driven decisions in:
+                                Customer targeting , Product development.The dashboard breaks down revenue by: Customer job types, Education levels, Geographical regions,
+                                Expenditure categories.We have analyzed card types,customer acquisition costs and quateraly performance.This data empowers us to serve our customers better and optimize our credit card offerings.</p>
+                            <a href="https://github.com/riachaudhari/Credit_Card_Financial_Dashboard.git" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card project-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Covid Data Analysis Project</h5>
+                            <p class="card-text">Performed Exploratory Data Analysis(EDA).The COVID-19 Dataset Analysis project focuses on a small dataset containing information about COVID-19 cases till April 29, 2020. This dataset includes details on confirmed cases, deaths, and recoveries across different
+                                regions and states. The analysis utilizes Pandas for data manipulation and Seaborn/Matplotlib for data
+                                visualization.</p>
+                            <a href="https://github.com/riachaudhari/Covid-Data-Analysis-Project.git" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card project-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Bike Buyers Excel Dashboard</h5>
+                            <p class="card-text">The main objective of this project is to create a dashboard using Excel to analyze bike sales count data across
+                                various regions, occupations, and different factors which affects the demand for bike.Performed data cleaning to remove any duplicates, spaces, and special characters, find and replace, and
+                                formatting.Created custom columns (Age Brackets) to extract additional information from the dataset.Created Pivot tables, Charts, and Graphs to summarise the data and visually get quick information and make it
+                                easier to understand.Finally, I built a dashboard in Excel with slicers, which allows users to interact with the data and view it in
+                                different ways.</p>
+            </p>
+                            <a href="https://github.com/riachaudhari/Bike-Buyers-Excel-Dashboard.git" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="text-center">Contact <span>Me</span></h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Ria Chaudhari. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+body {
+    background-color: #e4fcef; /* White background for the entire page */
+    color: #005870; /* Default text color */
+    font-family: 'League Spartan';
+    font-style: bold;
+}
+
+.hero {
+    background-color: whitesmoke; /* Light Cyan Blue */
+    color: #005870; /* Darker Blue */
+    padding: 100px 0;
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+  align-items: center; /* Vertically center the elements */
+  justify-content: space-between; /* Create space between the text and image */
+  align-items: center;
+  
+}
+.hero-image{
+    max-width: 300px; /* Adjust the maximum width of the image */
+  height: auto;
+}
+.hero-text{
+    display: flex; /* Create a flex container for text and buttons */
+   /* Stack elements vertically */
+  align-items: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+.about {
+    background-color: #e4fcef; /* Soft Lavender */
+    color: #005870; /* Dark Purple */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.projects {
+    background-color: whitesmoke; /* Light Peach */
+    color: #005870; /* Deep Orange */
+    padding: 50px 0;
+}
+
+.projects .card {
+    background-color: #ffffff; /* White card background */
+    color: #005870; /* Deep gray text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact {
+    background-color: #e4fcef; /* Light Mint Green */
+    color: #006400; /* Dark Green */
+    padding: 50px 0;
+}
+
+.btn-primary {
+    background-color: #00bcd4; /* Turquoise */
+    border-color: #00bcd4;
+    color: #ffffff; /* White text */
+    font-size: 1rem;
+}
+
+.navbar,
+.footer {
+    background-color: #f8f9fa; /* Soft gray */
+    color: #000000; /* Black text */
+   
+}
+footer p{
+    text-align: center;
+}
+
